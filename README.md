@@ -1,6 +1,6 @@
 
 # Liskov theme
-Es un tema para emacs, el nombre es honor a la ciencifica de la computacion [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov).
+Es un tema para emacs, el nombre es en honor a la ciencifica de la computacion [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov).
 
 Junto a la también especialista en ciencias de la computación [Jeannette Wing](https://en.wikipedia.org/wiki/Jeannette_Wing), desarrolló el denominado **principio de sustitución de Liskov**, un principio de la programación orientada a objetos.
 
@@ -18,6 +18,7 @@ Clonar el repositorio en tu carpeta de themes y agregar en tu init.el
 
 ### References
 <https://en.wikipedia.org/wiki/Liskov_substitution_principle>
+
 <https://es.wikipedia.org/wiki/Principio_de_sustituci%C3%B3n_de_Liskov>
 
 
