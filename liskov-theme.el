@@ -14,7 +14,7 @@
 ;; ---------------------------
 ;;
 ;; Liskov: An dark color theme
-;; @autor: Andres Urbano Guillermo Gerardo.
+;; @author: Andres Urbano Guillermo Gerardo.
 ;; ----------------------------
 
 (unless (>= emacs-major-version 24)
@@ -55,11 +55,11 @@
    `(modeline ((t (:background ,liskov-mode-line-black :foreground ,liskov-mode-line-white))))
    `(mode-line-inactive ((t (:box nil :background ,liskov-mid-gray :foreground ,liskov-light-gray-blue))))
    `(mode-line ((t (:box nil :foreground ,liskov-mode-line-white :background ,liskov-mode-line-black))))
-   `(fringe ((t (:background ,liskov-black))))
    ;; Dir-ed search prompt
    `(minibuffer-prompt ((default (:foreground ,liskov-white))))
    ;; Highlight region color
    `(region ((t (:foreground ,liskov-region-letter :background ,liskov-region-yellow))))
+   `(fringe ((t (:background ,liskov-black))))
 
    ;; ---------------- Code Highlighting ---------------
    ;; Builtin
@@ -79,12 +79,8 @@
    ;; Constant
    '(font-lock-constant-face ((t (:foreground "#BCEDDE")))) ;Contastantes: verde claro   
 
-                                        ; Highlight region color
-   ;;`(region ((t (:foreground "#525252":background "#FFFDD5"))))
-   ;;'(cursor  ((t (:background "#FFDAB5"))))
-   ;;`(fringe ((t (:background "#000000"))))
+                                        ; Highlight linum color
    '(linum ((t (:inherit (shadow default) :background "#000000" :foreground "#F3EFDE"))))         
-
 
                                         ;Company
    '(company-preview ((t (:background "#373B41" :foreground "wheat"))))
