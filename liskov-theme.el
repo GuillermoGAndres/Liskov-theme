@@ -62,22 +62,6 @@
    `(region ((t (:foreground ,liskov-region-letter :background ,liskov-region-yellow))))
 
    ;; ---------------- Code Highlighting ---------------
-   ;; ;; Builtin
-   ;; `(font-lock-builtin-face ((t (:foreground ,liskov-light-blue))))
-   ;; ;; Comments
-   ;; `(font-lock-comment-face ((t (:foreground ,liskov-comment-white))))
-   ;; ;; Function names
-   ;; `(font-lock-function-name-face ((t (:foreground ,liskov-light-yellow))))
-   ;; ;; Keywords
-   ;; `(font-lock-keyword-face ((t (:foreground ,liskov-light-yellow))))
-   ;; ;; Strings
-   ;; `(font-lock-string-face ((t (:foreground ,liskov-light-purple))))
-   ;; ;; Variables
-   ;; `(font-lock-variable-name-face ((t (:foreground ,liskov-light-green))))
-   ;; `(font-lock-type-face ((t (:foreground ,liskov-light-green))))
-   ;; `(font-lock-warning-face ((t (:foreground ,liskov-white :bold t))))
-
-                                        ; Code Highlighting
    ;; Builtin
    '(font-lock-builtin-face ((t (:foreground "#A4D1F2")))) ;azul claro
    ;; Comments
@@ -96,10 +80,11 @@
    '(font-lock-constant-face ((t (:foreground "#BCEDDE")))) ;Contastantes: verde claro   
 
                                         ; Highlight region color
-   ;`(region ((t (:foreground "#525252":background "#FFFDD5"))))
-   '(cursor  ((t (:background "#FFDAB5"))))             
-   ;'(linum ((t (:inherit (shadow default) :background "#000000" :foreground "#F3EFDE"))))         
-   ;`(fringe ((t (:background "#000000"))))
+   ;;`(region ((t (:foreground "#525252":background "#FFFDD5"))))
+   ;;'(cursor  ((t (:background "#FFDAB5"))))
+   ;;`(fringe ((t (:background "#000000"))))
+   '(linum ((t (:inherit (shadow default) :background "#000000" :foreground "#F3EFDE"))))         
+
 
                                         ;Company
    '(company-preview ((t (:background "#373B41" :foreground "wheat"))))
@@ -131,7 +116,8 @@
    '(mode-line ((t (:background "#000000" :foreground "#EFFBFF" :box nil))))
    
    )
-  )
+
+)
 
 
 
