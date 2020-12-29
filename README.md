@@ -21,5 +21,9 @@ Clonar el repositorio en tu carpeta de themes y agregar en tu init.el
 
 <https://es.wikipedia.org/wiki/Principio_de_sustituci%C3%B3n_de_Liskov>
 
-
-
+### Themes
+Temas que te gustaria echarles un ojo:
+- [Liskov-theme](https://github.com/GuillermoGAndres/Liskov-theme)
+- [Hoare-theme](https://github.com/GuillermoGAndres/Hoare-theme)
+- [Dijkstra-theme](https://github.com/GuillermoGAndres/Dijkstra-theme)
+- [Turing-theme](https://github.com/GuillermoGAndres/Turing-theme)

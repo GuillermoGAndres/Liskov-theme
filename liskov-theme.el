@@ -50,13 +50,15 @@
    ;; ----------------- Frame stuff --------------------
    `(default ((t (:background ,liskov-background :foreground ,liskov-foreground))))
    `(cursor  ((t (:background ,liskov-light-blue))))
+   ;;Marcado de la linea actual si es que esta activado.
    `(hl-line ((t (:background ,liskov-mid-gray))))
    ;; Mode-line
    `(modeline ((t (:background ,liskov-mode-line-black :foreground ,liskov-mode-line-white))))
    `(mode-line-inactive ((t (:box nil :background ,liskov-mid-gray :foreground ,liskov-light-gray-blue))))
    `(mode-line ((t (:box nil :foreground ,liskov-mode-line-white :background ,liskov-mode-line-black))))
    ;; Dir-ed search prompt
-   `(minibuffer-prompt ((default (:foreground ,liskov-white))))
+   ;;`(minibuffer-prompt ((default (:foreground ,liskov-white))))
+   '(minibuffer-prompt ((t (:foreground "#FFDAB5"))))
    ;; Highlight region color
    `(region ((t (:foreground ,liskov-region-letter :background ,liskov-region-yellow))))
    `(fringe ((t (:background ,liskov-black))))
@@ -65,8 +67,11 @@
    ;; Builtin
    '(font-lock-builtin-face ((t (:foreground "#A4D1F2")))) ;azul claro
    ;; Comments
-   '(font-lock-comment-face ((t (:foreground "#EFFBFF")))) ; Comentarios de en linea blanco
-   '(font-lock-doc-face ((t (:foreground "#EFFBFF")))) ;Docsting gris chido #9FB3C2 or verde chido #86B187 o verde con un tono poco nitido #8AB8A2.
+   ;;'(font-lock-comment-face ((t (:foreground "#EFFBFF")))) ; Comentarios de en linea blanco
+   ;;'(font-lock-comment-face ((t (:foreground "#9FB3C2")))) ; Comentarios de en linea grises
+   ;;'(font-lock-comment-face ((t (:foreground "#F28B86")))) ; Comentarios de en linea rojo
+   '(font-lock-comment-face ((t (:foreground "#EB9490")))) ; Comentarios de en linea rojo claro
+   '(font-lock-doc-face ((t (:foreground "#EFFBFF")))) ;Docsting blanco
    ;; Function names
    '(font-lock-function-name-face ((t (:foreground "#FFF8DC")))) ;Funcion names:  amarillo
    ;; Keywords
