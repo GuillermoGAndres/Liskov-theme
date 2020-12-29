@@ -12,9 +12,9 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;; ---------------------------
-;;
 ;; Liskov: An dark color theme
-;; @author: Andres Urbano Guillermo Gerardo.
+;; Author: Guillermo Andres Urbano.
+;; https://github.com/GuillermoGAndres/
 ;; ----------------------------
 
 (unless (>= emacs-major-version 24)
