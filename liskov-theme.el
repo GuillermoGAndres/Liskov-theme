@@ -115,6 +115,13 @@
 
                                         ;Powerline
    '(mode-line ((t (:background "#000000" :foreground "#EFFBFF" :box nil))))
+   ;;--------------------Web mode --------------------
+   '(web-mode-doctype-face ((t (:foreground "lightblue")))) ;turquoise , lightblue, PaleTurquoise
+   '(web-mode-html-tag-face ((t (:foreground "#FFF8DC")))); amarillo
+   ;;'(web-mode-html-tag-face ((t (:foreground "#EFFBFF"))));Color de los brackets
+   '(web-mode-html-attr-name-face ((t (:foreground "#BCEDDE")))) ;verde claro
+   '(web-mode-html-attr-value-face ((t (:foreground "#CAB4CC")))) ;morado
+   '(web-mode-comment-face ((t (:foreground "#EFFBFF")))) ;; Color blanco  
    
    )
 
