@@ -48,7 +48,7 @@
    'liskov
 
    ;; ----------------- Frame stuff --------------------
-   `(default ((t (:background ,liskov-background :foreground ,liskov-foreground))))
+   `(default ((t (:background ,liskov-background :foreground ,liskov-foreground :weight semibold))))
    `(cursor  ((t (:background ,liskov-light-blue))))
    ;;Marcado de la linea actual si es que esta activado.
    `(hl-line ((t (:background ,liskov-mid-gray))))
@@ -82,7 +82,7 @@
    '(font-lock-function-name-face ((t (:foreground "#FFF8DC")))) ;Funcion names:  amarillo
 
    ;; Keywords
-   '(font-lock-keyword-face ((t (:foreground "#FFF8DC" :weight normal)))) ; keyword;  amariilas
+   '(font-lock-keyword-face ((t (:foreground "#FFF8DC" :weight semibold)))) ; keyword;  amariilas
 
    ;; Strings
    '(font-lock-string-face ((t (:foreground "#CAB4CC")))) ;Cadenas; moradas
@@ -121,11 +121,11 @@
    '(tab-bar-tab-inactive ((t (:inherit tab-bar-tab :background "#000000" :foreground "#d6d6d6"))))
 
    ;; ---------------- Package Specific Stuff -----------
-   
+
    ;;-------------------------Powerline------------------------------
    `(powerline-active1 ((t (:background ,liskov-off-white :foreground ,liskov-background))))
    '(mode-line ((t (:background "#000000" :foreground "#EFFBFF" :box nil))))
-   
+
    ;;--------------------Web mode --------------------
    '(web-mode-doctype-face ((t (:foreground "lightblue")))) ;turquoise , lightblue, PaleTurquoise
    '(web-mode-html-tag-face ((t (:foreground "#FFF8DC")))); amarillo
@@ -143,6 +143,21 @@
    '(js2-error ((t (:foreground "#ed5f70" :slant italic :weight semi-bold))))
    '(js2-warning ((t (:underline (:color "#EB9490" :style wave) :slant italic))))
    '(js2-function-param ((t (:foreground "#d6d6d6")))) ;; color de la letra normal
+
+   ;;----------------- Diredfl -----------------------------
+   '(diredfl-date-time ((t (:foreground "#b8c4d7"))))
+   '(diredfl-dir-heading ((t (:foreground "#ceeca4"))))
+   '(diredfl-dir-name ((t (:foreground "#F0DFAF"))))
+   '(diredfl-dir-priv ((t (:foreground "#96e7e5"))))
+   '(diredfl-exec-priv ((t (:foreground "#D1907F"))))
+   '(diredfl-file-name ((t nil)))
+   '(diredfl-file-suffix ((t (:inherit diredfl-file-name))))
+   '(diredfl-no-priv ((t nil)))
+   '(diredfl-number ((t (:foreground "#F0DFAF"))))
+   '(diredfl-read-priv ((t (:foreground "#ceeca4"))))
+   '(diredfl-symlink ((t (:foreground "#96e7e5"))))
+   '(diredfl-write-priv ((t (:foreground "#F0DFAF"))))
+
    )
 
   )
