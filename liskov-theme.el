@@ -23,10 +23,10 @@
 (deftheme liskov
   "An cool dark color theme :D")
 
-(let ((liskov-background      "#000000")
-      (liskov-foreground      "#d6d6d6")
+(let ((liskov-background      "#0B0B0B")
+      (liskov-foreground      "#ededed")
       (liskov-mid-gray        "#666666")
-      (liskov-black           "#000000")
+      (liskov-black           "#0B0B0B")
       (liskov-white           "#FFFFFF")
       (liskov-off-white       "#F8F8F0")
       (liskov-light-gray-blue "#d0dfe6")
@@ -40,8 +40,8 @@
       (liskov-region-yellow    "#FFFDD5")
       (liskov-region-letter    "#525252")
       (liskov-linum-yellow    "#F3EFDE")
-      (liskov-mode-line-black      "#000000")
-      (liskov-mode-line-white      "#EFFBFF")
+      (liskov-mode-line-black      "#0B0B0B")
+      (liskov-mode-line-white      "#cacaca")
       )
 
   (custom-theme-set-faces
@@ -53,7 +53,6 @@
    ;;Marcado de la linea actual si es que esta activado.
    `(hl-line ((t (:background ,liskov-mid-gray))))
    ;;------------------------Mode-line------------------------------
-   `(modeline ((t (:background ,liskov-mode-line-black :foreground ,liskov-mode-line-white))))
    `(mode-line-inactive ((t (:box nil :background ,liskov-mid-gray :foreground ,liskov-light-gray-blue))))
    `(mode-line ((t (:box nil :foreground ,liskov-mode-line-white :background ,liskov-mode-line-black))))
    ;;-------------------- Dir-ed search prompt --------------------
@@ -82,7 +81,7 @@
    '(font-lock-function-name-face ((t (:foreground "#FFF8DC")))) ;Funcion names:  amarillo
 
    ;; Keywords
-   '(font-lock-keyword-face ((t (:foreground "#FFF8DC" :weight semibold)))) ; keyword;  amariilas
+   '(font-lock-keyword-face ((t (:foreground "#FFF8DC")))) ; keyword;  amariilas :weight semibold
 
    ;; Strings
    '(font-lock-string-face ((t (:foreground "#CAB4CC")))) ;Cadenas; moradas
@@ -96,14 +95,14 @@
    '(font-lock-constant-face ((t (:foreground "#F4B3A0")))) ;Constantes: naranja claro
 
    ;;------------------------------ Highlight linum color------------------------------
-   '(linum ((t (:inherit (shadow default) :background "#000000" :foreground "#F3EFDE"))))
+   '(linum ((t (:inherit (shadow default) :background "#0B0B0B" :foreground "#F3EFDE"))))
 
    ;;------------------------------Company------------------------------
    '(company-preview ((t (:background "#373B41" :foreground "wheat"))))
    '(company-preview-common ((t (:inherit company-preview :foreground "wheat"))))
    '(company-tooltip-common ((t (:foreground "#FFFDD5")))) ;Color de las letras en coincidencia en pop
    '(company-tooltip-selection ((t (:background "#7B7B7B")))) ;Color de seleccion resaltado.
-   '(company-tooltip ((t (:background "#000000" :foreground "#C5C8C6")))) ;Color fondo y letra
+   '(company-tooltip ((t (:background "#0B0B0B" :foreground "#C5C8C6")))) ;Color fondo y letra
    '(company-scrollbar-bg ((t (:background "#282A2E")))) ;Color de scrollbar
    '(company-scrollbar-fg ((t (:background "#373B41"))))
    '(company-tooltip-annotation ((t (:foreground "#F0DFAF"))))
@@ -157,7 +156,8 @@
    '(diredfl-read-priv ((t (:foreground "#ceeca4"))))
    '(diredfl-symlink ((t (:foreground "#96e7e5"))))
    '(diredfl-write-priv ((t (:foreground "#F0DFAF"))))
-
+   ;;----------- display line numbers--------------
+   '(line-number-current-line ((t (:inherit line-number :foreground "#Ffffff")))) ;;
    )
 
   )
