@@ -131,7 +131,7 @@
    ;;'(web-mode-html-tag-face ((t (:foreground "#EFFBFF"))));Color de los brackets
    '(web-mode-html-attr-name-face ((t (:foreground "#BCEDDE")))) ;verde claro
    '(web-mode-html-attr-value-face ((t (:foreground "#CAB4CC")))) ;morado
-   '(web-mode-comment-face ((t (:foreground "#EFFBFF")))) ;; Color blanco
+   '(web-mode-comment-face ((t (:foreground "#EFFBFF" :slant italic)))) ;; Color blanco
 
    ;;----------------------JS2-mode------------------------------------
    '(js2-function-call ((t (:foreground "#FFF8DC")))) ; amarillo claro
